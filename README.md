@@ -12,7 +12,7 @@
 <h3>[ 3 ] sudo bash setup.sh</h3>
 <h3>[ 4 ] python3 main.py</h3>
 
-imagen
+[![image.png](https://i.postimg.cc/J7NYvF3W/image.png)](https://postimg.cc/bdvR23F6)
 
 <hr>
 
