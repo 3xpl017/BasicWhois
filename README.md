@@ -11,3 +11,9 @@
 <h3>[ 2 ] cd BasicWhois</h3>
 <h3>[ 3 ] sudo bash setup.sh</h3>
 <h3>[ 4 ] python3 main.py</h3>
+
+imagen
+
+<hr>
+
+`[ ! ]` Contacto de `Discord` para mandar invitación: `qwfkr.`
