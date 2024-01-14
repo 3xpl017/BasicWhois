@@ -30,6 +30,7 @@ def volver_menu():
     menu()
 
 def menu():
+    os.system('clear')
     title = f'''
     )                                )              
  ( /(     )     (         (  (    ( /(      (       
@@ -53,15 +54,17 @@ def menu():
 [02] Hacerle un whois a una IP
 [03] Hacerle un whois a un dominio
 '''
+    print(Fore.BLUE + Back.RESET + options)
 
-    choice = input(f'{name}@BasicWhois')
+    choice = input(f'{name}@BasicWhois:~$ ')
 
-    if choice == '00':
+    if choice == '00' :
         salir()
 
     elif choice == '02':
         print('\n[>] Ingresa la IP:')
-        choice = input(f'{name}@BasicWhois')
+        choice = input(f'\n{name}@BasicWhois')
+        print('\n[>] Whois {choice}: ')
         print('-----------------------------------------------------------------------------------')
         os.system(f'whois {choice}')
         print('-----------------------------------------------------------------------------------')
@@ -69,7 +72,8 @@ def menu():
 
     elif choice == '03':
         print('\n[>] Ingresa el nombre del dominio:')
-        choice = input(f'{name}@BasicWhois')
+        choice = input(f'\n{name}@BasicWhois')
+        print('\n[>] Whois {choice}: ')
         print('-----------------------------------------------------------------------------------')
         os.system(f'whois {choice}')
         print('-----------------------------------------------------------------------------------')
